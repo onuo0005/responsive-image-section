@@ -23,9 +23,13 @@ body {
   margin: 0;
 }
 
-.img-flex img {
+.img-flex {
   display: block;
   width: 100%;
+}
+
+h1 {
+  display: none;
 }
 
 a {
@@ -37,6 +41,10 @@ a {
   color: white;
   background-color: #555;
   text-align: center;
+}
+
+a:hover {
+  background-color: #555;
 }
 
 .bodyk {
@@ -75,7 +83,7 @@ p {
     width: 49%;
   }
 
-  .img-flex {
+  .img-flexp {
     display: inline-block;
     width: 49%;
     margin: 1.5rem 0;
@@ -94,7 +102,7 @@ p {
     line-height: 1.5;
   }
 
-  .img-flex {
+  .img-flexp {
     width: 48%;
   }
 
